@@ -121,5 +121,8 @@ SELECT p.order_id,
       supplier s
  WHERE 1=1
    AND s.supplierid = p.supplier_id
- GROUP BY s.name 
+ GROUP BY p.order_id,
+       p.quantity,
+       p.order_date,
+       s.name 
  
