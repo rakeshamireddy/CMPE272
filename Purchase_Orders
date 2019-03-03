@@ -1,0 +1,15 @@
+CREATE TABLE "Purchase_Orders" (
+	"Order_id"	INTEGER,
+	"Buyer_Name"	TEXT,
+	"Order_Date"	DATE,
+	"Delivery_Date"	DATE,
+	"Item_Id"	INTEGER,
+	"Item_description"	TEXT,
+	"Quantity"	INTEGER,
+	"Order_Total"	INTEGER,
+	"Supplier_id"	INTEGER,
+	"Ship_to_Address"	INTEGER,
+	"Bill_to_Address"	INTEGER,
+	"Status"	TEXT,
+	PRIMARY KEY("Order_id")
+)

@@ -1,0 +1,6 @@
+CREATE TABLE "Items" (
+	"Item_id"	INTEGER,
+	"Item_Description"	TEXT,
+	"Unit_Price"	INTEGER,
+	PRIMARY KEY("Item_id")
+)

@@ -1,0 +1,11 @@
+CREATE TABLE "Addresses" (
+	"Address_id"	INTEGER,
+	"Address_Type"	TEXT,
+	"Address1"	TEXT,
+	"Address2"	TEXT,
+	"City"	TEXT,
+	"State"	TEXT,
+	"Postal_Code"	TEXT,
+	"Country"	TEXT,
+	PRIMARY KEY("Address_id")
+)
