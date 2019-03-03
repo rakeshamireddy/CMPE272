@@ -118,9 +118,7 @@ SELECT p.order_id,
        s.name supplier_name
        SUM (p.total_amount) Order_Total_Supplier
  FROM purchaseorder p,
-      customer c,
-      supplier s,
-      items i
+      supplier s
  WHERE 1=1
    AND s.supplierid = p.supplier_id
  GROUP BY s.name 
